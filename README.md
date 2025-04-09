@@ -1,4 +1,4 @@
-HubSpot Email Migration
+##HubSpot Email Migration
 Scripts for migrating email templates between HubSpot portals.
 Setup
 
@@ -8,7 +8,7 @@ hsKey=source_portal_api_key
 hsKeyIssa=destination_portal_api_key
 
 
-Scripts
+##Scripts
 Run these in sequence:
 
 getTemplates.js: Fetches email templates from source portal
@@ -30,7 +30,7 @@ Converts published emails to draft state
 
 
 
-Notes
+##Notes
 
 Includes delay functions to prevent API rate limiting
 Business unit ID is hardcoded (1656486) in createEmails.js
